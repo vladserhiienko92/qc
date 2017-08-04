@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="Content/css/ion.rangeSlider.css">
     <link rel="stylesheet" type="text/css" href="Content/css/ion.rangeSlider.skinFlat.css">
     <link rel="stylesheet" type="text/css" href="Content/css/pointhr.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <script src="https://use.fontawesome.com/cece73aa03.js"></script>
 </head>
 
@@ -53,7 +54,7 @@
         <div class="container">
             <h1 class="title">Quality control</h1>
             <div class="arrow-back">
-                <span class="arrow-span"><</span>
+                <span class="arrow-span"></span>
                 <a href="#">Back to dashboard</a>
             </div>
         </div>
@@ -63,12 +64,12 @@
         <div class="audit-list">
             <div class="audit-select-client">
                 <div class="audit-option">
-                    <input ng-click="radio = 1" id="option1" type="radio" name="group" value="option1" checked>
+                    <input id="option1" type="radio" name="group" value="option1" checked>
                     <label for="option1">All clients</label>
                 </div>
                 <div class="audit-option">
-                    <input ng-click="radio = 1" id="option1" type="radio" name="group" value="option1" class="input-select">
-                    <label for="option1">Select client</label>
+                    <input id="option2" type="radio" name="group" value="option1" class="input-select">
+                    <label for="option2">Select client</label>
                     <select class="audit-select" disabled>
                         <option value="Choose client">Choose client</option>
                         <option value="Choose client1">Choose client</option>
@@ -347,7 +348,7 @@
             <div class="footer-pagination">
                 <div class="pagination-dropdown">
                     <select class="form-input">
-                        <option selected><strong>6</strong> items per page</option>
+                        <option selected>6 items per page</option>
                         <option value="">Lorem.</option>
                         <option value="">Laborum.</option>
                     </select>
